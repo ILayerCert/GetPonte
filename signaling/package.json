@@ -1,0 +1,16 @@
+{
+  "name": "ponte-signaling",
+  "version": "0.1.0",
+  "description": "Ponte POC — WebRTC signaling server (lightweight, no mediasoup)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "uuid": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
